@@ -23,4 +23,17 @@
 </html>
 ```
 
+[01.html 파일로 이동](/JavaScript/practice/01/01/01.html)
+[02.html 파일로 이동](/JavaScript/practice/01/02/02.html)
+
+### 환경 구축
+
+- Code Runner -> CTRL + ALT + N
+- Node.js
+- 여러 익스텐션 알아서 다운로드
+    - HTML CSS Support
+    - HTML to CSS autocompletion
+    - nodejs 
+    - open in browser
+
 
