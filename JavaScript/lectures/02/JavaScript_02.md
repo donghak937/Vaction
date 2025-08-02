@@ -73,3 +73,5 @@ function myFunction(){
 myFunction();
 console.log(name);
 ```
+
+![출력 값](print.png)
