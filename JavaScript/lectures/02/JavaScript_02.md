@@ -74,4 +74,68 @@ myFunction();
 console.log(name);
 ```
 
-![출력 값](print.png)
+![출력 값](01.png)
+
+- 지역 변수와 전역 변수 구분 해보기 
+
+```js
+let name = 'Bormi';
+
+function myFunction2(){
+    let name = 'Luge';
+    console.log('지역 변수 : ' + name); // + 연산자로 글자끼리 합칠 수 있음 
+}
+
+myFunction2();
+console.log('전역 변수 : ' + name);
+```
+
+![출력 값](02.png)
+
+- 예제 문제
+
+```js
+
+let item = '사과';
+
+function pickFruit() {
+    let item = '바나나';
+    console.log('함수 안: ' + item);
+}
+
+pickFruit();
+console.log('함수 밖: ' + item);
+
+```
+
+출력
+<span style="color: white;">
+함수 안: 바나나
+함수 밖: 사과
+</span>
+
+```js
+
+let user = '보르미';
+
+function outer() {
+    let user = '존슨';
+
+    function inner() {
+        console.log('내부 함수: ' + user);
+    }
+
+    inner();
+}
+
+outer();
+console.log('전역 영역: ' + user);
+
+
+```
+예상 출력
+<span style="color: white;">
+    내부 함수: 존슨  
+    전역 영역: 보르미
+</span>
+
