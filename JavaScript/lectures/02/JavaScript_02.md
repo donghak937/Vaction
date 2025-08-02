@@ -139,3 +139,131 @@ console.log('전역 영역: ' + user);
     전역 영역: 보르미
 </span>
 
+---
+
+### 데이터 타입
+
+- 데이터 타입은 변수 안에 있는 값의 타입을 나타낸다.
+- 종류에 따라 메모리 할당이 다르다.
+
+```js
+// 문자열 (String)
+let name = 'Bormi';
+
+// 숫자 (Number)
+let age = '17';
+
+// 불린 (Boolean) 참, 거짓
+let flag = 'true';
+
+// 객체 (Object)
+let lists = [1,2,3]; // 배열
+let lists2 = {one:1, two:2, three:3}; // Map과 유사 함 
+```
+
+- 변수끼리의 연산
+    - 숫자는 더한다.
+    - 숫자 + 문자열은 숫자를 문자열로 만들어서 더한다.
+    - 문자열은 문자를 합친다.
+    - 불린은 true : 1, false : 0으로 변환한다.
+
+
+
+- 문제 풀이
+
+---
+
+##### 문제 1
+
+```js
+console.log(1 + 2);
+```
+<span style="color: white;">
+3
+</span>
+
+##### 문제 2
+
+```js
+console.log(5 + "개");
+```
+
+<span style="color: white;">
+"5개" ""-> 문자열로 나온다는 뜻
+</span>
+
+##### 문제 3
+
+```js
+console.log("Hello" + "World");
+```
+
+<span style="color: white;">
+"HelloWorld"
+</span>
+
+##### 문제 4
+
+```js
+console.log(true + 1);
+```
+
+<span style="color: white;">
+2
+</span>
+
+
+##### 문제 5
+
+```js
+console.log(false + "입니다");
+```
+
+<span style="color: white;">
+"0입니다"
+</span>
+
+
+##### 문제 6
+
+```js
+console.log(3 + true + "개");
+```
+
+<span style="color: white;">
+"4개"
+</span>
+
+
+- 특수 변수
+```js
+//아무것도 지정 안한 상태.
+//undefined
+let name;
+console.log(name);
+
+//아무것도 없다는 상태가 들어간 상태
+//null
+let not = null;
+console.log(not);
+```
+
+- 데이터 타입 확인
+    - typeof는 데이터 타입을 확인
+
+```js
+console.log('Bormi', typeof 'Bormi'); // Bormi string
+console.log('10', typeof 10); // 10 number
+```
+
+- 나누기 오류의 경우
+
+```js
+console.log(1 / 0); // Infinity
+console.log(5  + 'Bormi'); // NaN (Not a Number)
+
+//숫자의 경우 (문자열 숫자도 마찬가지) false 리턴
+console.log(isNaN(3)); // false
+console.log(isNaN('3')); // false
+console.log(isNaN('Bormi')); // true
+```
