@@ -267,3 +267,40 @@ console.log(isNaN(3)); // false
 console.log(isNaN('3')); // false
 console.log(isNaN('Bormi')); // true
 ```
+
+
+---
+## 챕터 문제
+```js
+let myBox;
+let yourBox = null;
+
+console.log(myBox, typeof myBox);
+console.log(yourBox, typeof yourBox);
+
+console.log('==', null == undefinded);
+console.log('===', null == undefinded);
+```
+<span style="color: white;">
+undefined undefined
+null object -> js 유우명한 버그임
+== true
+=== false
+
+===는 엄격한 비교다 타입이 정확히 일치해야한다.
+</span>
+
+
+```js
+let myBox = '';
+let yourBox = '    ';
+
+console.log(myBox == yourBox);
+console.log(typeof myBox, typeof yourBox);
+```
+<span style="color: white;">
+false
+undefined string
+
+yourBox 안에는 공백이 들어가 있다.
+</span>
