@@ -50,8 +50,94 @@ console.log('x % y = ' + z); // x + y = 2;
 x = 'Bo';
 y = 'rmi';
 console.log(x + y); // Bormi;
-
-
 ```
 
 
+```js
+let x = 20;
+
+console.log('x = ' + x);
+
+x += 5;
+console.log('x += 5 -> x = ' + x); // x += 5 -> x = 25
+
+x *= 5;
+console.log('x *= 5 -> x = ' + x); // x *= 5 -> x = 125
+
+x %= 5;
+console.log('x %= 5 -> x = ' + x); // x %= 5 -> x = 0
+```
+
+- 사각형 넓이 구하는 프로그램을 만들어보자.
+
+
+```js
+let width = 10;
+let height = 10;
+let area = width * height;
+
+```
+- 비교 연산자 사용법.
+
+
+```js
+let x = 5, y = 8;
+
+console.log(x == y); // false
+console.log(x === y); // false
+
+console.log(x < y); // true
+console.log(x > y); // false
+
+console.log(x === 5); // true
+console.log(x === '5'); // false
+```
+
+- 논리 연산자 사용법.
+
+
+```js
+let x = true, y = false;
+
+console.log(x || y); // true
+console.log(x && y); // false
+console.log(!x); // false
+```
+
+- 증감 연산자 사용법.
+
+
+```js
+let x = 10;
+
+console.log(x++); // 10
+console.log(--x); // 12
+```
+
+- 삼항 연산자 사용법.
+
+
+```js
+let x = 10, y = 5;
+
+console.log(x > y ? 'x가 더 큼' : 'y가 더 큼'); // x가 더 큼
+```
+
+- 비만도 판정 프로그램 만들기.
+    - 키 : 170, 몸무게 : 50, 정상 bmi : 23
+    - 삼항 연산자를 사용할 것
+    - .toFixed(0) 으로 소숫점 0자리로 출력
+    - bmi = kg / (cm * cm);
+
+- 프로그램 결과 예측
+```js
+let x = 1, y = 1, z = 1;
+y = x++;
+console.log(x + ' ' + y);
+
+z = ++x;
+console.log(x + ' ' + z);
+
+y +=z
+console.log(y + ' ' + z);
+```
