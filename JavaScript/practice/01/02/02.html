@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title> 페이지의 제목이 들어간다 </title>
+        <style>
+
+        #book{
+            cursor: pointer;
+            box-shadow: 5px 5px 2px #888;
+        }
+        </style>
+
+    </head>
+
+    <body>
+        
+        <h1>나의 첫 페이지</h1>
+
+        <img id = "book" src = "Colt_gun.png" alt = "Hello"> </img>
+        <script>
+            document.querySelector('#book').onclick = function(){
+                this.src = 'Ollohead.png';
+            }
+        </script>
+
+    </body>
+
+
+</html>
+
+<!-- 주석 ALT + B to OPEN-->
