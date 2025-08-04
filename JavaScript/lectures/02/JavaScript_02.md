@@ -151,10 +151,10 @@ console.log('전역 영역: ' + user);
 let name = 'Bormi';
 
 // 숫자 (Number)
-let age = '17';
+let age = 17;
 
 // 불린 (Boolean) 참, 거짓
-let flag = 'true';
+let flag = true;
 
 // 객체 (Object)
 let lists = [1,2,3]; // 배열
@@ -260,7 +260,7 @@ console.log('10', typeof 10); // 10 number
 
 ```js
 console.log(1 / 0); // Infinity
-console.log(5  + 'Bormi'); // NaN (Not a Number)
+console.log(5  * 'Bormi'); // NaN (Not a Number)
 
 //숫자의 경우 (문자열 숫자도 마찬가지) false 리턴
 console.log(isNaN(3)); // false
@@ -279,7 +279,7 @@ console.log(myBox, typeof myBox);
 console.log(yourBox, typeof yourBox);
 
 console.log('==', null == undefinded);
-console.log('===', null == undefinded);
+console.log('===', null === undefinded);
 ```
 <span style="color: white;">
 undefined undefined <br>
@@ -292,7 +292,7 @@ null object -> js 유우명한 버그임 <br>
 
 
 ```js
-let myBox = '';
+let myBox;
 let yourBox = '    ';
 
 console.log(myBox == yourBox);
