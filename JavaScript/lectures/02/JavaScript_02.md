@@ -11,7 +11,7 @@
 // 수학적의미의 =는 ==로 사용한다. 
 let container = 'Bormi';
 
-let currentMoney = '10';
+let currentMoney = 10;
 ```
 
 `let` : 변수를 사용하겠다는 키워드
@@ -26,8 +26,8 @@ let currentMoney = '10';
 // 한글은 사용 불가능
 let 유튜바 = 'Bormi';
 
-// 첫 글자 영어 금지
-let 10Money = '10';
+// 첫 글자 숫자 금지
+let 10Money = 10;
 
 // _ , $ 을 제외한 특수문자 금지
 let my!stuff = '10';
