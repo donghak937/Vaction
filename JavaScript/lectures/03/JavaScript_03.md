@@ -122,6 +122,7 @@ console.log(x > y ? 'x가 더 큼' : 'y가 더 큼'); // x가 더 큼
     - .toFixed(0) 으로 소숫점 0자리로 출력
     - bmi = kg / (cm * cm);
 
+
 - 프로그램 결과 예측
 ```js
 let x = 1, y = 1, z = 1;
