@@ -70,12 +70,6 @@ console.log('x %= 5 -> x = ' + x); // x %= 5 -> x = 0
 
 - 사각형 넓이 구하는 프로그램을 만들어보자.
 
-```js
-let width = 10;
-let height = 10;
-let area = width * height;
-
-```
 - 비교 연산자 사용법.
 
 
