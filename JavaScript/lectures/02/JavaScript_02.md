@@ -282,9 +282,9 @@ console.log('==', null == undefinded);
 console.log('===', null == undefinded);
 ```
 <span style="color: white;">
-undefined undefined
-null object -> js 유우명한 버그임
-== true
+undefined undefined <br>
+null object -> js 유우명한 버그임 <br>
+== true <br>
 === false
 
 ===는 엄격한 비교다 타입이 정확히 일치해야한다.
@@ -299,8 +299,8 @@ console.log(myBox == yourBox);
 console.log(typeof myBox, typeof yourBox);
 ```
 <span style="color: white;">
-false
-undefined string
+false <br>
+undefined string <br><br>
 
 yourBox 안에는 공백이 들어가 있다.
 </span>

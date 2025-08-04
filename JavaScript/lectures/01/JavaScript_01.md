@@ -2,9 +2,10 @@
 
 ### 가장 기초적인 문법
 
-<!DOCTYPE html>
 
 ```html
+<!DOCTYPE html>
+
 <html lang="ko">
     <head>
         <meta charset="UTF-8">
