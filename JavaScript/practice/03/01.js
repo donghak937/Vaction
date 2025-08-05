@@ -1,6 +1,9 @@
-let width  = 10;
-let height  = 10;
+function area(width, height){
+    
+    let qu = width * height;
+    
+    return qu;
+    
+}
 
-let area = width * height;
-
-console.log(area);
+console.log(area(10, 10));
