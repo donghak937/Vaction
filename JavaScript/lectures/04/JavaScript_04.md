@@ -30,20 +30,20 @@ if (x > 100) { // 안에 있는 값이 100 보다 작으면,
 let x = 10;
 
 if (x > 100) { // 안에 있는 값이 100 보다 작으면,
-    console.log('x값은 짝수 입니다.');
+    console.log('x값은 100보다 작습니다.');
 }
 else{ // 아니면
-    console.log('x값은 홀수 입니다.');
+    console.log('x값은 100보다 큽니다.');
 }
 ```
 ```js
 let x = 10;
 
 if (???) { // 짝수면
-    console.log('x값은 100보다 작습니다.');
+    console.log('x값은 짝수입니다.');
 }
 else{ // 아니면
-    console.log('x값은 100보다 큽니다.');
+    console.log('x값은 홀수입니다.');
 }
 ```
 
