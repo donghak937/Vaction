@@ -79,7 +79,7 @@ switch (fruit){
         console.log(fruit + ' 선택');
         break;
     default:
-        console.log('도데체 뭘 고른거야');
+        console.log('도대체 뭘 고른거야');
         break;
 }
 ```
